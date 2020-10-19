@@ -2,9 +2,9 @@
 const { Client } = require('tdlnode')
 const configExample = require('./config')
 
-const api_id = 'your api_id'
-const api_hash = 'your api_hash'
-const phone_number = '+12345679021' // or token
+const api_id = '1942394'
+const api_hash = '853f20c9036da43d237ab488b82dd219'
+const phone_number = '+380731563436' // or token
 
 
 const up = async () => {
@@ -34,7 +34,7 @@ const up = async () => {
         'limit': 100,
     })
 
-    console.log('chats', chats)
+    console.log(chats)
 
     client.stop()
 }

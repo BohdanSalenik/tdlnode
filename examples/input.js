@@ -1,7 +1,7 @@
 'use strict'
 
 const verificationCodeHandler = resolve => {
-    const code = 'get somehow your code here'
+    const code = '65701'
     resolve(code)
 }
 
